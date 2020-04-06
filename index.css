@@ -1,5 +1,5 @@
 #backgroundWrapper {
-  background: linear-gradient(to bottom left, #660033 0%, #cc3300 100%);
+  background: linear-gradient(to bottom left, #3F356E 0%, #C7C1E3 100%);
   width: 100vw;
   height: 100vh;
 }
@@ -10,21 +10,11 @@
   margin-top: 20vh;
   width: 30vw;
   height: 60vh;
-  background-color: pink;
+  background-color: #E9E8EB;
   border-style: solid;
-  border-width: 5px;
+  border-width: 4px;
 }
 
-#number-circle {
-  height: 10vw;
-  width: 10vw;
-  margin: auto;
-  background-color: #bbb;
-  border-radius: 50%;
-  display: inline-block;
-  text-align:center;
-  vertical-align:middle;
-}
 
 .circle {
   width: 13vw;
@@ -38,16 +28,16 @@
   display: inline-block;
   margin: auto;
   border-style: solid;
-  border-width: 5px;
+  border-width: 4px;
   border-color: black;
-  background-color: blue;
+  background-color: #5D567E;
   margin-left: 8vw;
   margin-top: 4vh;
 }
 
 .input-textbox {
   border-style: solid;
-  border-width: 5px;
+  border-width: 4px;
   border-color: black;
   margin-top: 3vh;
   margin-left: 5vw;
