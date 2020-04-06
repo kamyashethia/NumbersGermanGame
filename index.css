@@ -1,4 +1,4 @@
-body {
+#backgroundWrapper {
   background: linear-gradient(to bottom left, #660033 0%, #cc3300 100%);
   width: 100vw;
   height: 100vh;
@@ -30,7 +30,7 @@ body {
   width: 13vw;
   height: 13vw;
   border-radius: 50%;
-  font-size: 10px;
+  font-size: 5vw;
   color: #fff;
   line-height: 100px;
   text-align: center;
@@ -42,7 +42,7 @@ body {
   border-color: black;
   background-color: blue;
   margin-left: 8vw;
-  margin-top: 3vh;
+  margin-top: 4vh;
 }
 
 .input-textbox {
@@ -53,4 +53,6 @@ body {
   margin-left: 5vw;
   width: 20vw;
   height: 5vh;
+  font-size: 3vh;
+  text-align: center;
 }
