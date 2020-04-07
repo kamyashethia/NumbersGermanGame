@@ -23,7 +23,7 @@ const NUMBERS = {
   19 : 'neunzehn',
   20 : 'zwanzig',
   21 : 'einundzwanzig',
-  22 : 'zweiundzwansig',
+  22 : 'zweiundzwanzig',
   23 : 'dreiundzwanzig',
   24 : 'vierundzwanzig',
   25 : 'funfundzwanzig',
