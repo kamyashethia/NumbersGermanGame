@@ -83,11 +83,14 @@ function invokeCorrectAnswerResponse() {
 function invokeIncorrectAnswerResponse(actualAnswer) {
   document.getElementById("answer").value = "";
   document.getElementById("backgroundWrapper").style.background = incorrectAnswerBackground;
+    document.getElementById("number").style.background = "#660033";
   document.getElementById("correct-answer-hint").innerHTML = "Nein! <br> Richtig Antwort: <b>" + actualAnswer + "</b>";
 
   setTimeout(function(){
       document.getElementById("backgroundWrapper").style.background = baseBackground;
+      document.getElementById("number").style.background = "#5D567E";
       document.getElementById("correct-answer-hint").innerHTML = "";
+
    }, 1000);
 
 
